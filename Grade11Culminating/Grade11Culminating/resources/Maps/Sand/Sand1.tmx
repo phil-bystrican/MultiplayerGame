@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="70" height="16" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="SandTileSet" tilewidth="32" tileheight="32">
+  <image source="../../Images/SandTileSet.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="4" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../../Images/Collision.png" width="32" height="32"/>
+ </tileset>
+ <layer name="CollisionLayer" width="70" height="16">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3XoQ0AMBDEsAe//8zFlcJbYEu3QNjtzKzluOnSdGm6NF2aLk2XpkvTpenSdGm6NF2aLu31j/95B17ixHyAEQAA
+  </data>
+ </layer>
+ <layer name="BackgroundLayer" width="70" height="16">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3DwQkAAAwDoYPsv3On6E/BVVNVVVX17QGJQ0oLgBEAAA==
+  </data>
+ </layer>
+ <layer name="WallLayer" width="70" height="16">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3XsQ0AMAzDsOT/pzsX0N4OJOAHtHlnZi3HTZemS9Ol6dJ0abo0XZouTZemS9Ol6dJ0aa9//M87St8ZRYARAAA=
+  </data>
+ </layer>
+</map>

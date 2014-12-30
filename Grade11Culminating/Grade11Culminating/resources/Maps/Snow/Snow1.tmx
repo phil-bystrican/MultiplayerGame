@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="70" height="16" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="IceTileSet" tilewidth="32" tileheight="32">
+  <image source="../../Images/IceTileSet.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="4" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../../Images/Collision.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="5" name="SpawnPoint" tilewidth="32" tileheight="32">
+  <image source="../../Images/SpawnPoint.png" width="32" height="32"/>
+ </tileset>
+ <layer name="CollisionLayer" width="70" height="16" opacity="0.4">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2VSw7AIAhEWXj/M3fbEgqDn4jIJCRNZbC+SGlE1CrEKH2VkYvnPH+5nIvFqffeefmP3GWP9yYu6J7aetQ+4lx6/4tSHuJFmO1gN4vL28ufUY/2bSdzkeqh+Vat4iLXOpWLVgfxRdPqeeSdVRnm9Oi8kt5n4DJDUftot4qLLKsvbo4HFTmHj4ARAAA=
+  </data>
+ </layer>
+ <layer name="SpawnLayer" width="70" height="16">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3XoREAQAgDQQz9t4x88QMWxG4FmXOJoJPbAw7RAgAA4OcrPVrMCgabaDmAEQAA
+  </data>
+ </layer>
+ <layer name="Background" width="70" height="16" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2W3QrAIAiFpd7/nXcVhOj0mPtJCg6DNDe/tNaJqB+VVpuU5dsMX27XhMb1vAfh4s25saflp/l6c0LjWjEiXDhjjf3uXLz1Kc1zBpIdrd+IrLhZ9XIXT2Njza3u+5NC+siycQ5joDwqcZHYrDCpwkXqE1LmV75tJy7amTyPlf+Gv5y7kftIuoOGOBsv+2gfWesy76NonXv3sxoXJN8Mvzf7CF1zdPS1LlwO8CmAEQAA
+  </data>
+ </layer>
+ <layer name="WallLayer" width="70" height="16" visible="0" opacity="0.98">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2VSw7AIAhE8f6X7rYlFAY/EZFJSJrKYH2R0oioVYhR+iojF895/nI5F4tT773z8h+5yx7vTVzQPbX1qH3EufT+F6U8xIsw28FuFpe3lz+jHu3bTuYi1UPzrVrFRa51KhetDuKLptXzyDurMszp0Xklvc/AZYai9tFuFRdZVl/cHA8o663igBEAAA==
+  </data>
+ </layer>
+</map>

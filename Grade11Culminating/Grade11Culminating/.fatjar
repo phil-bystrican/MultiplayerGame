@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Wed Dec 05 23:49:12 EST 2012
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=Grade11Culminating_fat.jar
+manifest.mergeall=true
+manifest.mainclass=Screens.MainWindow
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=
